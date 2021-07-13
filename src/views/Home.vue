@@ -1,16 +1,16 @@
 <template>
-  <hello-world />
+  <main-nav-vue />
 </template>
 
 <script lang="ts">
+import MainNavVue from '@/components/navigation/Main.nav.vue';
 import Vue from 'vue';
-import HelloWorld from '../components/HelloWorld.vue';
 
 export default Vue.extend({
   name: 'Home',
 
   components: {
-    HelloWorld,
+    MainNavVue,
   },
 });
 </script>

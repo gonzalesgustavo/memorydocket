@@ -17,3 +17,10 @@ export default Vue.extend({
   }),
 });
 </script>
+
+<style lang="scss">
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+:root {
+  --font-festive: 'Festive', cursive;
+}
+</style>
