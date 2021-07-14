@@ -20,7 +20,9 @@ export default Vue.extend({
 
 <style lang="scss">
 @import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Merienda&display=swap');
 :root {
   --font-festive: 'Festive', cursive;
+  --font-merienda: 'Merienda', cursive;
 }
 </style>
